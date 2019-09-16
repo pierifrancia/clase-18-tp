@@ -19,6 +19,10 @@ div {
 margin: 20px;
 }
 
+span {
+    font-weight: bold;
+}
+
 
 
 .bloque1 {
@@ -41,10 +45,9 @@ border-radius: 2px;
 outline: none;  
 }
 
-@media (max-width: 1400px) and (min-width: 599px) {footer {
-    display: flex;
-    flex-wrap: wrap;
-}
+li {
+line-height: 24px;
+list-style: none;
 }
 
 @media (max-width: 1400px) and (min-width: 599px) {footer {
