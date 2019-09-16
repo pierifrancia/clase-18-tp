@@ -23,15 +23,25 @@ span {
     font-weight: bold;
 }
 
-
+i {
+    color: #fff;
+    border-radius: 50%;
+}
 
 .bloque1 {
     display: flex;
 }
 
-
 .bloque2 {
     display: flex;
+}
+
+.fab {
+padding: 8px;
+margin: 2px;
+border-radius: 50%;
+background-color: #007bff;
+color: #fff;
 }
 
 input[type=email] {    
@@ -54,4 +64,8 @@ list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
+}
+
+i:hover {
+background-color: #0669d3;
 }
