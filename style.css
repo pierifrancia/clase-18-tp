@@ -11,7 +11,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     margin: 50px;
 }
 
@@ -30,7 +30,10 @@ i {
 
 .bloque1 {
     display: flex;
+<<<<<<< HEAD
 
+=======
+>>>>>>> df599e08ea0d04bb887ab2b4f30a0c463e9d4046
  
 }
 
@@ -38,6 +41,10 @@ i {
     display: flex;
 
 
+}
+
+.useful-links {
+    width: 400px;
 }
 
 .fab {
@@ -59,21 +66,26 @@ line-height: 16px;
 }
 
 input[type="submit"] {
-    background: #007bff;
-    border: 0;
-    width: 80px;
-    height: 35px;
-    padding: 6px 0;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    transition: 0.3s;
-    cursor: pointer;
+background: #007bff;
+border: 0;
+width: 80px;
+height: 35px;
+padding: 6px 0;
+text-align: center;
+font-size: 14px;
+color: #fff;
+transition: 0.3s;
+cursor: pointer;
 }
 
-li {
+ul {
+    padding-inline-start: 0px;
+}
+
+li, a{
 line-height: 24px;
 list-style: none;
+<<<<<<< HEAD
 
 }
 
@@ -86,6 +98,38 @@ list-style: none;
 @media(max-width: 600px){ footer{ display: flex;
     flex-direction: column;}
 
+=======
+color: #fff;
+text-decoration:none;
+
+}
+a:hover {
+    color:lightskyblue;
+    transition:0.5;
+}
+
+@media (max-width: 1400px) and (min-width: 599px) {
+footer {
+display: flex;
+flex-wrap: wrap;
+}
+}
+
+@media(max-width: 600px){ 
+footer{ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.bloque1 {
+display: flex;
+flex-wrap: wrap;
+}
+.bloque2 {
+display: flex;
+flex-wrap: wrap;
+}
+>>>>>>> df599e08ea0d04bb887ab2b4f30a0c463e9d4046
 }
 
 
