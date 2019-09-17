@@ -11,8 +11,8 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    margin: 50px;
+    align-items: center;
+            margin: 50px;
 }
 
 div {
@@ -45,9 +45,17 @@ border-radius: 2px;
 outline: none;  
 }
 
-li {
+
+li, a{
 line-height: 24px;
 list-style: none;
+color: #fff;
+text-decoration:none;
+
+}
+a:hover {
+    color:lightskyblue;
+    transition:0.5;
 }
 
 @media (max-width: 1400px) and (min-width: 599px) {footer {
