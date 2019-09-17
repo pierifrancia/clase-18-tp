@@ -30,10 +30,13 @@ i {
 
 .bloque1 {
     display: flex;
+    flex-wrap: wrap;
+ 
 }
 
 .bloque2 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .fab {
@@ -70,11 +73,20 @@ cursor: pointer;
 li {
 line-height: 24px;
 list-style: none;
+
 }
 
-@media (max-width: 1400px) and (min-width: 599px) {footer {
-    display: flex;
-    flex-wrap: wrap;
+@media (max-width: 1400px) and (min-width: 599px) {
+footer {
+display: flex;
+flex-wrap: wrap;
+}
+}
+
+@media(max-width: 600px){ 
+footer{ 
+display: flex;
+flex-direction: column;
 }
 }
 
