@@ -30,10 +30,14 @@ i {
 
 .bloque1 {
     display: flex;
+
+ 
 }
 
 .bloque2 {
     display: flex;
+
+
 }
 
 .fab {
@@ -70,13 +74,20 @@ input[type="submit"] {
 li {
 line-height: 24px;
 list-style: none;
+
 }
 
-@media (max-width: 1400px) and (min-width: 599px) {footer {
+@media (max-width: 1400px) and (min-width: 599px) 
+{footer {
     display: flex;
-    flex-wrap: wrap;
+
+    }}
+
+@media(max-width: 600px){ footer{ display: flex;
+    flex-direction: column;}
+
 }
-}
+
 
 i:hover {
 background-color: #0669d3;
