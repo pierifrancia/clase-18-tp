@@ -11,8 +11,8 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-            margin: 50px;
+    align-items: flex-start;
+    margin: 50px;
 }
 
 div {
@@ -30,13 +30,15 @@ i {
 
 .bloque1 {
     display: flex;
-    flex-wrap: wrap;
  
 }
 
 .bloque2 {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.useful-links {
+    width: 400px;
 }
 
 .fab {
@@ -70,6 +72,9 @@ transition: 0.3s;
 cursor: pointer;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
 
 li, a{
 line-height: 24px;
@@ -94,6 +99,15 @@ flex-wrap: wrap;
 footer{ 
 display: flex;
 flex-direction: column;
+justify-content: center;
+}
+.bloque1 {
+display: flex;
+flex-wrap: wrap;
+}
+.bloque2 {
+display: flex;
+flex-wrap: wrap;
 }
 }
 
