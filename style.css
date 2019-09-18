@@ -21,27 +21,52 @@
 .bloque1 {
 
     display: flex;
+}
 
- 
+.wayne {
+    width: 350px;
+     margin-top:0px; 
+       
+}
+h1{
+    letter-spacing: 0px;
+    font-size: 34px;
+    font-weight: normal;
+}
+.useful-links {
+    width: 150px;
 }
 
 .bloque2 {
     display: flex;
-
-
 }
 
-.useful-links {
-    width: 400px;
-}
 
+ .social {
+    width: 200px;
+  
+    
+}
+.suscription {
+    width: 300px;
+}
+span {
+    font-weight: bold;
+}
+i {
+    color: #fff;
+    border-radius: 50%;
+}
 .fab {
-padding: 8px;
-margin: 2px;
-border-radius: 50%;
-background-color: #007bff;
-color: #fff;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
 }
+
+
+
 
 input[type=email] {    
 border: 0;    
@@ -65,165 +90,6 @@ color: #fff;
 transition: 0.3s;
 cursor: pointer;
 }
-
-ul {
-    padding-inline-start: 0px;
-}
-
-li, a{
-line-height: 24px;
-list-style: none;
-}
-
-@media (max-width: 1400px) and (min-width: 599px) 
-{footer {
-    display: flex;
-
-    }}
-
-@media(max-width: 600px){ footer{ display: flex;
-    flex-direction: column;}
-
-
-a:hover {
-    color:lightskyblue;
-    transition:0.5;
-}
-
-@media (max-width: 1400px) and (min-width: 599px) {
-footer {
-display: flex;
-flex-wrap: wrap;
-}
-}
-
-@media(max-width: 600px){ 
-footer{ 
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.bloque1 {
-display: flex;
-flex-wrap: wrap;
-}
-.bloque2 {
-display: flex;
-flex-wrap: wrap;
-}
-
-
-
-i:hover {
-background-color: #0669d3;
-
-    display:flex;
-    justify-content: center;
-}
-
-.bloque2 {
-    display:flex;
-    justify-content: center;
-}
-
- .wayne {
-     width: 350px;
-      margin-top:0px; 
-      padding-right:20px;    
-}
- h1{
-     letter-spacing: 0px;
-     font-size: 34px;
-     font-weight: normal;
-}
- .useful-links {
-     width: 200px;
-     padding:0px 10px 0px 20px;
-     
-     
-}
-  .social {
-     width: 300px;
-     padding-right:10px
-     
-}
- span {
-     font-weight: bold;
-}
- i {
-     color: #fff;
-     border-radius: 50%;
-}
- .fab {
-     padding: 8px;
-     margin: 2px;
-     border-radius: 50%;
-     background-color: #007bff;
-     color: #fff;
-}
- .suscription {
-     width: 300px;
-}
- input[type=email] {
-     border: 0;
-     width: 200px;
-     height: 35;
-     padding: 6px 8px;
-     font-size: 16px;
-     border: 2px solid transparent;
-     line-height: 16px;
-}
- input[type="submit"] {
-     background: #007bff;
-     border: 0;
-     width: 80px;
-     height: 35px;
-     padding: 6px 0;
-     text-align: center;
-     font-size: 14px;
-     color: #fff;
-     transition: 0.3s;
-     cursor: pointer;
-}
- ul {
-     padding-inline-start: 0px;
-}
- li, a{
-     line-height: 24px;
-     list-style: none;
-     color: #fff;
-     text-decoration:none;
-}
- a:hover {
-     color:lightskyblue;
-     transition:0.5;
-}
- @media (max-width: 1400px) and (min-width: 601px) {
-     footer {
-         display: flex;
-         flex-wrap: wrap;
-         margin:20px;
-    }
-}
- @media(max-width: 600px){
-     footer{
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         margin:20px;
-    }
-     .bloque1 {
-         display: flex;
-         flex-wrap: wrap;
-         margin:20px;
-    }
-     .bloque2 {
-         display: flex;
-         flex-wrap: wrap;
-         margin:20px;
-    }
-}
-
 input:hover {
     background-color: #0669d3;
     transition:0.5;
@@ -232,6 +98,47 @@ input:hover {
      background-color: #0669d3;
      transition:0.5;
 }
+ul {
+    padding-inline-start: 0px;
+}
+
+li, a{
+line-height: 24px;
+list-style: none;
+color: #fff;
+text-decoration:none;
+}
+
+a:hover {
+    color:lightskyblue;
+    transition:0.5;
+}
+
+
+ @media (max-width: 1400px) and (min-width: 601px) {
+     footer {
+         display: flex;
+         flex-wrap: wrap;
+        
+}}
+
+@media(max-width: 600px){ 
+    footer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .bloque1 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .bloque2 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    }
+
+
 
 .copyright {
     background-color:darkblue;
@@ -240,5 +147,6 @@ input:hover {
     text-align:center;
     color:#fff;
     font-size:10px;
+    margin: 0;
 }
 
