@@ -20,7 +20,7 @@
 }
 .bloque1 {
     display:flex;
-    justify-content: center;
+   
 }
 
 .bloque2 {
@@ -30,8 +30,7 @@
 
  .wayne {
      width: 350px;
-      margin-top:0px; 
-      padding-right:20px;    
+  
 }
  h1{
      letter-spacing: 0px;
@@ -40,13 +39,11 @@
 }
  .useful-links {
      width: 200px;
-     padding:0px 10px 0px 20px;
-     
-     
+  
 }
   .social {
      width: 300px;
-     padding-right:10px
+
      
 }
  span {
@@ -125,6 +122,12 @@
          flex-wrap: wrap;
          margin:20px;
     }
+    .social{
+        width: 250px;
+    }
+    .suscription{
+        width: 300px;
+    }
 }
 
 input:hover {
@@ -139,7 +142,7 @@ input:hover {
 .copyright {
     background-color:darkblue;
     padding-top:40px;
-        display:block;
+    display:block;
     text-align:center;
     color:#fff;
     font-size:10px;
