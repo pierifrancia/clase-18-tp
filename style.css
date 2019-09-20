@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
  body {
      background-color: #00428a;
      color: #fff;
@@ -9,144 +8,139 @@
  footer {
      display: flex;
      justify-content: center;
-     align-items: flex-start;
-     padding:0px 20px 10px 20px;
-     margin: 10px 50px 10px 50px;
+     flex-wrap: wrap;
+     padding:0px 60px 10px 60px;
+     margin: 10px 20px 10px 20px;
      font-size:14px;
      text-align:left;
 }
- div {
-     margin: 20px;
-}
 .bloque1 {
-
     display: flex;
-}
-
-.wayne {
-    width: 350px;
-     margin-top:0px; 
-       
 }
 h1{
     letter-spacing: 0px;
     font-size: 34px;
     font-weight: normal;
+}       
+ .wayne  {
+     padding: 0 15px 15px 15px;
+     width: 300px;
+     flex: 0 0 50%;
+     
 }
-.useful-links {
-    width: 150px;
+ .useful-links {
+     padding: 15px;
+     width: 200px;
+     flex: 0 0 50%;
 }
 
-.bloque2 {
-    display: flex;
+ .bloque2 {
+     display: flex;
 }
-
-
- .social {
+.social {
+    padding: 15px;
     width: 200px;
-  
+    flex: 0 0 50%;
+}
+.suscription{
+    padding: 15px;
+    width: 300px;
+    flex: 0 0 50%;
+
+}
+ span {
+     font-weight: bold;
+}
+ i {
+     color: #fff;
+     border-radius: 50%;
+     transition:0.5s;
+}
+ .fab {
+     padding: 8px;
+     margin: 2px;
+     border-radius: 50%;
+     background-color: #007bff;
+     color: #fff;
+}
+form{ display: flex;
+    margin: 0;
     
 }
-.suscription {
-    width: 300px;
+ input[type=email] {
+     border: none;
+     width: 65%;
+     height: 35px;
+     font-size: 16px;
+     line-height: 16px;
+     padding: 0;
 }
-span {
-    font-weight: bold;
+ input[type="submit"] {
+     background: #007bff;
+     border: none;
+     width: 35%;
+     height: 35px;
+     text-align: center;
+     font-size: 14px;
+     color: #fff;
+     transition: 0.5s;
+     cursor: pointer;
+     padding: 0;
 }
-i {
-    color: #fff;
-    border-radius: 50%;
+ [type=submit]:hover {
+     background-color: #0669d3;
 }
-.fab {
-    padding: 8px;
-    margin: 2px;
-    border-radius: 50%;
-    background-color: #007bff;
-    color: #fff;
-}
-
-
-
-
-input[type=email] {    
-border: 0;    
-width: 200px;   
-height: 35;   
-padding: 6px 8px;  
-font-size: 16px;
-border: 2px solid transparent;   
-line-height: 16px;
-}
-
-input[type="submit"] {
-background: #007bff;
-border: 0;
-width: 80px;
-height: 35px;
-padding: 6px 0;
-text-align: center;
-font-size: 14px;
-color: #fff;
-transition: 0.3s;
-cursor: pointer;
-}
-input:hover {
-    background-color: #0669d3;
-    transition:0.5;
-    }
  i:hover {
      background-color: #0669d3;
-     transition:0.5;
 }
-ul {
-    padding-inline-start: 0px;
+ ul {
+     padding-inline-start: 0px;
 }
-
-li, a{
-line-height: 24px;
-list-style: none;
-color: #fff;
-text-decoration:none;
+ li, a{
+     line-height: 24px;
+     list-style: none;
+     color: #fff;
+     text-decoration:none;
+     transition:0.5s;
 }
-
-a:hover {
-    color:lightskyblue;
-    transition:0.5;
+ a:hover {
+     color:lightskyblue;
 }
-
-
- @media (max-width: 1400px) and (min-width: 601px) {
+ @media (max-width: 1000px) and (min-width: 601px) {
      footer {
-         display: flex;
          flex-wrap: wrap;
-        
-}}
-
-@media(max-width: 600px){ 
-    footer{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     }
-    .bloque1 {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    .bloque2 {
-    display: flex;
-    flex-wrap: wrap;
-    }
+    footer div {
+        flex: 0 0 50%;
     }
 
 
-
-.copyright {
-    background-color:darkblue;
-    padding-top:40px;
-    display:block;
-    text-align:center;
-    color:#fff;
-    font-size:10px;
-    margin: 0;
 }
-
+ @media(max-width: 600px){
+     footer {
+         flex-direction: column;
+         justify-content: center;
+    }
+     .bloque1 {
+         flex-wrap: wrap;
+         padding: 0px;
+         margin: 0px;
+    }
+     .bloque2 {
+         flex-wrap: wrap;
+         padding: 0px;
+         margin: 0px;
+    }
+}
+ .copyright {
+     height: 70px;
+     background-color:darkblue;
+     padding-top:20px;
+     padding-bottom: 10px;
+     display:block;
+     text-align:center;
+     color:#fff;
+     font-size:14px;
+     margin: 0;
+}
+ 
