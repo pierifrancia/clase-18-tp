@@ -1,3 +1,18 @@
+/* Observaciones generales sobre el maquetado
+- Para que las fuentes se nos vean en bold, debemos importar ese estilo desde Google Fonts. En la ventana de seleccion de google
+fonts, veremos una pestaña "customize": ahi podemos seleccionar distintos pesos para la fuente. 700 suele ser bold. Nuestro selector deberia quedar asi:
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+- La media query de tablet empieza muy pronto. 900px o 768 suelen ser el estandar. 
+
+- Le falta un poco de trabajo al maquetado en la resolucion mas pequeña. Los elementos deberian ocupar mas el ancho de la pantalla, 
+y en particular los iconos y el input se ven mal. 
+
+- Tengo poco para comentarles porque realmente todo el codigo esta muy prolijo, y se nota el gran esfuerzo de correccion
+que hicieron sobre lo ya escrito. Felicitaciones!
+
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
  body {
      background-color: #00428a;
@@ -12,6 +27,8 @@
      padding:0px 60px 10px 60px;
      margin: 10px 20px 10px 20px;
      font-size:14px;
+
+     /* text-align left viene asi por defecto, por lo que no es necesario */
      text-align:left;
 }
 .bloque1 {
@@ -64,6 +81,8 @@ h1{
      color: #fff;
 }
 form{ display: flex;
+
+    /* no deberia ser necesario margin 0 en la form */
     margin: 0;
     
 }
@@ -131,6 +150,9 @@ form{ display: flex;
          padding: 0px;
          margin: 0px;
     }
+
+    /* podriamos unir esos dos selectores, asi:
+    .bloque1, .bloque2 */
 }
  .copyright {
      height: 70px;
